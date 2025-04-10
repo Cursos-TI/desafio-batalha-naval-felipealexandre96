@@ -2,7 +2,7 @@
 
 int main(){
     char letras[10] = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'};
-    int tabuleiro[10][10];
+    int tabuleiro[10][10] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9},{10}};
     int navio1_linha_inicial, navio1_coluna_inicial;
     int navio2_linha_inicial, navio2_coluna_inicial;
     int tamanhonavio = 3;
